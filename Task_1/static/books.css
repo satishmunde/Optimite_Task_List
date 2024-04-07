@@ -1,0 +1,111 @@
+
+.dashboard-icon {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.navbar-custom {
+    background-color: #007bff;
+
+}
+
+
+#existingdata {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#existingdata p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+#existingdata p:first-child {
+    font-weight: bold;
+}
+
+#bookDetailsModal .modal-dialog {
+max-width: 800px; 
+
+z-index: 11;
+}
+
+#bookDetailsModal .modal-content {
+border-radius: 20px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#bookDetailsModal .modal-header {
+background-color: #007bff; 
+color: #fff;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+
+#bookDetailsModal .modal-body {
+padding: 20px;
+}
+
+
+
+#bookDetailsModal .modal-footer {
+justify-content: flex-end;
+border-top: none;
+}
+
+#bookDetailsModal .btn-secondary {
+background-color: #6c757d; 
+color: #fff;
+}
+
+#bookDetailsModal .btn-secondary:hover {
+background-color: #5a6268;
+}
+
+#bookTable td,
+th {
+    font-size: 13px;
+    white-space: nowrap;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+}
+
+#bookTable th,
+#bookTable td {
+    max-width: 50px;
+  
+}
+
+
+.dashboard-icon {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.animated-card {
+    animation: slide-up 0.5s ease-in-out;
+}
+
+@keyframes slide-up {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#bookDetailsModal {
+    z-index: 1059;
+}
+
